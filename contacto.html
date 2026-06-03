@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto y FAQ - OptimizaWABiz</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/contacto.css">
+  <script defer src="app/script.js"></script>
+</head>
+<body>
+
+  <header id="header" class="header">
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html">OptimizaWABiz</a></div>
+      <button class="burger" id="burger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Planes</a></li>
+        <li><a href="casos-exito.html">Casos de Éxito</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="contacto.html" class="btn btn-primary">Revisión gratis</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div id="contacto" class="seccion seccion-alt">
+    <div class="container">
+      <h2>Contacto Directo</h2>
+      <p class="contacto-desc">Habla con nuestro asesor virtual de inmediato. Escribe <strong>/planes</strong> para ver detalles de servicios o haznos cualquier otra consulta.</p>
+      
+      <div class="contenedor-chat">
+        <header class="cabecera-chat">
+          <div class="info-cabecera">
+            <span class="chat-titulo">OptimizaWABiz</span>
+            <span class="chat-subtitulo">Asesor Virtual</span>
+          </div>
+        </header>
+        <main class="mensajes" id="cuerpoChat">
+          <div class="mensaje bot">¡Hola! Soy el asesor virtual de OptimizaWABiz. Escribe "/planes" para ver nuestros servicios detallados o consúltame lo que necesites.</div>
+        </main>
+        <footer class="entrada-chat">
+          <input type="text" placeholder="Escribe tu mensaje..." id="inputMensaje">
+          <button id="botonEnviar" disabled>Enviar</button>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <div id="faq" class="seccion">
+    <div class="container">
+      <h2>Preguntas frecuentes</h2>
+      <div class="faq-lista">
+        <div class="faq-item">
+          <button class="faq-pregunta">¿Necesito saber de tecnología para optimizar mi perfil?</button>
+          <div class="faq-respuesta"><p>No necesitas conocimientos técnicos. Nosotros configuramos de manera estratégica todo y te entregamos instrucciones claras y precisas.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-pregunta">¿Ustedes entran directamente a mi cuenta de WhatsApp?</button>
+          <div class="faq-respuesta"><p>No ingresamos a tus cuentas personales ni leemos tus chats. Te indicamos el paso a paso exacto para implementar todas las mejoras de forma segura.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-pregunta">¿Cuánto tiempo demora la optimización?</button>
+          <div class="faq-respuesta"><p>En promedio, entregamos toda la estructura y auditoría lista de 3 a 5 días laborales.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Copyright <span id="year"></span> OptimizaWABiz. Todos los derechos reservados.</p>
+      <div class="footer-nav">
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Planes</a>
+        <a href="casos-exito.html">Casos de Éxito</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solicitar Revisión – OptimizaWABiz</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/formulario.css">
+  <script defer src="app/script_formulario.js"></script>
+</head>
+<body>
+
+  <header id="header" class="header">
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html">OptimizaWABiz</a></div>
+      <ul class="nav-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Planes</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="pantalla-formulario">
+    <div class="caja-formulario">
+      <h2>Revisión Gratuita</h2>
+      <p>Déjanos tus datos y analizaremos tu perfil sin costo.</p>
+      
+      <form id="contact-form" novalidate>
+        <input type="text" id="nombre" placeholder="Tu nombre completo" required>
+        <input type="text" id="negocio" placeholder="Nombre de tu negocio" required>
+        <input type="text" id="rubro" placeholder="¿Qué vendes? (Ej. Ropa, Comida)" required>
+        <input type="tel" id="whatsapp" placeholder="Tu número de WhatsApp" required>
+        <textarea id="mensaje" rows="4" placeholder="Cuéntanos tus dudas (Opcional)" required></textarea>
+        
+        <button type="submit" class="btn btn-primary boton-ancho">Enviar solicitud</button>
+      </form>
+
+      <div class="atajo-whatsapp">
+        <a href="https://wa.me/51999999999" target="_blank" class="btn btn-secondary boton-ancho">O chatea por WhatsApp</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Copyright <span id="year"></span> OptimizaWABiz.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
