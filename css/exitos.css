@@ -6,6 +6,7 @@
   gap: 1.5rem;
   justify-content: center;
   margin-bottom: 4rem;
+  margin: 0 auto;
 }
 .info_card{
   flex: 1;
