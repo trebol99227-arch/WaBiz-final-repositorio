@@ -1,0 +1,92 @@
+
+.cards {
+  display: flex;
+  flex-direction: column ;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+.info_card{
+  flex: 1;
+}
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+
+  padding: 1.5rem;
+  max-width: 600px; 
+  width: 100%;
+
+  text-align: left; 
+}
+
+.card h3 {
+  color: #128C7E;
+  margin-bottom: 0.5rem;
+}
+
+.info_card h3{
+  color: #25D366;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.info_card p{
+  line-height: 1.6;
+  margin: 0
+}
+.card p {
+  color: #555555;
+  font-size: 0.95rem;
+}
+
+
+@media (max-width: 991px) {
+  .burger {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    flex-direction: column;
+    gap: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .nav-menu li {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+}
+.Logo_casos_exito img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border-color: #25D366;
+    border-width: 0.20rem;
+    border-style: solid;
+  }
+  .columna_img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+} 
+ 

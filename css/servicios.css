@@ -1,0 +1,91 @@
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.step {
+  text-align: center;
+  flex: 1 1 200px;
+  max-width: 260px;
+}
+
+.step-number {
+  display: inline-block;
+  background-color: #25D366;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.step h3 {
+  color: #128C7E;
+  margin-bottom: 0.5rem;
+}
+
+.step p {
+  color: #555555;
+}
+
+/*planes de pago */
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.plan-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-top: 4px solid #25D366;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  flex: 1 1 240px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-card h3 {
+  color: #128C7E;
+  margin-bottom: 0.5rem;
+}
+
+.plan-card .price {
+  font-size: 1.6rem;
+  color: #25D366;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.plan-features {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.plan-features li {
+  padding-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #555555;
+  font-size: 0.9rem;
+}
+
+.plan-features li::before {
+  content: "✓ ";
+  color: #25D366;
+  font-weight: bold;
+}
+
+.plan-card .btn {
+  margin-top: auto;
+}
+
